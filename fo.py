@@ -105,7 +105,7 @@ def main():
 			print(f"[ERROR] Unsupported the action `{action}` for the command `{command}`")
 			return -1
 
-		# Check the action directory
+		# check the action directory
 
 		is_required_dir = action in ["copy", "move"]
 
